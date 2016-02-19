@@ -51,15 +51,15 @@ app.controller('MainCtrl', function ($scope, $cordovaFileOpener2) {
 
   $scope.open = function (text) {
     //var file = "/android_asset/www/videos/" + "" + text;
-    var file = 'www/index.html';
+    var file = '/android_asset/www/videos/triunghi.mp4';
 
     $cordovaFileOpener2.open(
       file,
       'video/mp4'
     ).then(function () {
-      console.log("Fisier deschis cu succes!");
+      console.log("File opened succesfully!");
     }, function (err) {
-      console.log("Eroare!" + "Fisierul " + file + " " + err.message);
+      console.log("Error!" + "File " + file + " " + err.message);
     });
 
   }
