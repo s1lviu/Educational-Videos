@@ -1,1 +1,27 @@
 /* Empty. Add your own CSS if you like */
+
+.transparent {
+  background: black !important;
+}
+
+.centerme {
+  margin: 0 auto;
+  width: 100%;
+  height:100%;
+}
+
+.fullscreen-player {
+  max-width: 100%;
+  max-height: 100%;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  overflow: none;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.item{
+  background-color: #FEFEBA;
+}

@@ -8,10 +8,17 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/cordova-plugin-file-opener2/www/plugins.FileOpener2.js",
-        "id": "cordova-plugin-file-opener2.FileOpener2",
+        "file": "plugins/cordova-plugin-screen-orientation/www/screenorientation.js",
+        "id": "cordova-plugin-screen-orientation.screenorientation",
         "clobbers": [
-            "cordova.plugins.fileOpener2"
+            "cordova.plugins.screenorientation"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-screen-orientation/www/screenorientation.android.js",
+        "id": "cordova-plugin-screen-orientation.screenorientation.android",
+        "merges": [
+            "cordova.plugins.screenorientation"
         ]
     },
     {
@@ -45,13 +52,13 @@ module.exports = [
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "cordova-plugin-console": "1.0.2",
+    "cordova-plugin-crosswalk-webview": "1.5.0",
     "cordova-plugin-device": "1.1.1",
-    "cordova-plugin-file-opener2": "2.0.2",
-    "cordova-plugin-splashscreen": "3.1.0",
+    "cordova-plugin-screen-orientation": "1.4.0",
+    "cordova-plugin-splashscreen": "3.2.1-dev",
     "cordova-plugin-statusbar": "2.1.1",
     "cordova-plugin-whitelist": "1.2.1",
     "ionic-plugin-keyboard": "1.0.8"
-}
+};
 // BOTTOM OF METADATA
 });

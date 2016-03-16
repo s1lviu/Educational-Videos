@@ -1,4 +1,11 @@
 {
-  "name": "educatie",
-  "app_id": ""
+  "name": "cercul",
+  "app_id": "6d646da0",
+  "browsers": [
+    {
+      "platform": "android",
+      "browser": "crosswalk",
+      "version": "12.41.296.5"
+    }
+  ]
 }
